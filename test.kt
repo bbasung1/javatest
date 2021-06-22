@@ -1,4 +1,12 @@
+import java.util.Scanner
 fun main(){
-    var nums=readLine()!!.split(" ")
-    println(nums[0].toInt()+nums[1].toInt())
+   val scan=Scanner(System.`in`)
+   var a:Int=scan.nextInt()
+   var b=Array(a,{0})
+   for(i in 0..a-1){
+       b[i]=scan.nextInt()
+   }
+   for(i in b){
+       println(i)
+   }
 }
