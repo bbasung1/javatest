@@ -1,11 +1,14 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 public class hello{
     public static void main(String[] args) {
-       Scanner scan=new Scanner (System.in);
        int a,b;
-       a=scan.nextInt();
-       b=scan.nextInt();
-       scan.close();
-       System.out.println(a+b);
+       char c,d;
+       a=0xF90A;
+       b=0x50;
+       System.out.printf("%c \n",a);
+       c=(char)b;
+       System.out.printf("%c \n",c);
+       d='#';
+       System.out.printf("%c의 ASCII값은 %d 입니다\n",d,(int)d);
     }
 }
